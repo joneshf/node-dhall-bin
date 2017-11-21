@@ -1,0 +1,30 @@
+{
+  "name": "dhall",
+  "version": "1.9.0-rc1",
+  "description": "NPM package for dhall",
+  "bin": {
+    "dhall": "bin/dhall",
+    "dhall-format": "bin/dhall-format",
+    "dhall-hash": "bin/dhall-hash"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joneshf/node-dhall-bin.git"
+  },
+  "keywords": [],
+  "author": "Hardy Jones <jones3.hardy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joneshf/node-dhall-bin/issues"
+  },
+  "homepage": "https://github.com/joneshf/node-dhall-bin#readme",
+  "os": [
+    "linux"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict';
+
+var childProcess = require('child_process');
+var path = require('path');
+var input = process.argv.slice(2);
+
+var dhall = path.join(__dirname, '..', 'vendor', 'dhall');
+
+childProcess.spawn(dhall, input, {stdio: 'inherit'})
+  .on('exit', process.exit);
