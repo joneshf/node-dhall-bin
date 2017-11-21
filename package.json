@@ -1,7 +1,7 @@
 {
-  "name": "dhall",
+  "name": "dhall-haskell",
   "version": "1.9.0-rc1",
-  "description": "NPM package for dhall",
+  "description": "NPM package for dhall-haskell",
   "bin": {
     "dhall": "bin/dhall",
     "dhall-format": "bin/dhall-format",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joneshf/node-dhall-bin.git"
+    "url": "git+https://github.com/joneshf/node-dhall-haskell-bin.git"
   },
   "keywords": [],
   "author": "Hardy Jones <jones3.hardy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joneshf/node-dhall-bin/issues"
+    "url": "https://github.com/joneshf/node-dhall-haskell-bin/issues"
   },
-  "homepage": "https://github.com/joneshf/node-dhall-bin#readme",
+  "homepage": "https://github.com/joneshf/node-dhall-haskell-bin#readme",
   "os": [
     "linux"
   ],

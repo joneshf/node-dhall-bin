@@ -1,2 +1,2 @@
-# node-dhall-bin
-NPM package for dhall
+# node-dhall-haskell-bin
+NPM package for dhall-haskell
